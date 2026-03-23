@@ -1,7 +1,7 @@
 {
   "name": "Elanur'un Komuta Merkezi",
   "short_name": "Elanur",
-  "description": "Ders takip, alışkanlık, ödül sistemi",
+  "description": "Ders takip, alışkanlık, ödül sistemi — Elanur için özel tasarlanmış gamified eğitim uygulaması",
   "id": "/elanur-quest/",
   "start_url": "/elanur-quest/",
   "scope": "/elanur-quest/",
@@ -12,7 +12,11 @@
   "orientation": "portrait",
   "lang": "tr",
   "dir": "ltr",
-  "categories": ["education", "productivity"],
+  "categories": ["education", "productivity", "kids"],
+  "iarc_rating_id": "",
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "scope_extensions": [],
   "launch_handler": {
     "client_mode": "navigate-existing"
   },
@@ -30,6 +34,7 @@
     {"name": "Quiz", "short_name": "Quiz", "url": "/elanur-quest/"}
   ],
   "screenshots": [
-    {"src": "/elanur-quest/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "form_factor": "narrow", "label": "Ana Ekran"}
+    {"src": "/elanur-quest/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "form_factor": "narrow", "label": "Ana Ekran"},
+    {"src": "/elanur-quest/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "form_factor": "wide", "label": "Ana Ekran Masaüstü"}
   ]
 }
