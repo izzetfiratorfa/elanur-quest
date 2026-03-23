@@ -27,6 +27,37 @@
   "launch_handler": {
     "client_mode": "navigate-existing"
   },
+  "file_handlers": [
+    {
+      "action": "/elanur-quest/",
+      "accept": {
+        "application/json": [".json"]
+      }
+    }
+  ],
+  "protocol_handlers": [
+    {
+      "protocol": "web+elanur",
+      "url": "/elanur-quest/?data=%s"
+    }
+  ],
+  "share_target": {
+    "action": "/elanur-quest/",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+  "widgets": [
+    {
+      "name": "Elanur Günlük Özet",
+      "description": "Günlük XP ve streak özeti",
+      "tag": "daily-summary",
+      "ms_ac_template": "widget/daily.json"
+    }
+  ],
   "icons": [
     {"src": "/elanur-quest/icons/icon-48.png", "sizes": "48x48", "type": "image/png", "purpose": "any"},
     {"src": "/elanur-quest/icons/icon-96.png", "sizes": "96x96", "type": "image/png", "purpose": "any"},
