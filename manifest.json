@@ -6,7 +6,7 @@
   "start_url": "/elanur-quest/",
   "scope": "/elanur-quest/",
   "display": "standalone",
-  "display_override": ["standalone"],
+  "display_override": ["window-controls-overlay", "standalone", "tabbed"],
   "background_color": "#fdf2f8",
   "theme_color": "#ec4899",
   "orientation": "portrait",
@@ -22,10 +22,14 @@
     }
   ],
   "scope_extensions": [
-    {"origin": "https://oqxipjtomielwzwfwevu.supabase.co"}
+    {"origin": "https://oqxipjtomielwzwfwevu.supabase.co"},
+    {"origin": "https://izzetfiratorfa.github.io"}
   ],
   "launch_handler": {
     "client_mode": "navigate-existing"
+  },
+  "edge_side_panel": {
+    "preferred_width": 400
   },
   "file_handlers": [
     {
